@@ -21,7 +21,7 @@ export const MainMenu = [
 export default function Header() {
     return (
         <div className="header shadow">
-            <div class="grid grid-flow-col">
+            <div className="grid grid-flow-col">
                 <div className="row-span-2 justify-items-center">
                     <div className="self-center justify-self-center h-full">
                         <a className="flex items-center justify-center h-full w-full">

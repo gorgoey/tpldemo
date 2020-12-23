@@ -8,6 +8,15 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+html {
+  max-width: 100%;
 }
 
 a {
@@ -15,6 +24,31 @@ a {
   text-decoration: none;
 }
 
+.heroplaylist {
+  padding: 6rem 0 4rem;
+}
+
+.heroplaylist:before  {
+    content: "";
+    display: block;
+    width: 150vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -50vw;
+    background: #37003c;
+    background-position: 50% top;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.heroplaylist:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 * {
   box-sizing: border-box;
 }
+
