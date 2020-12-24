@@ -2,7 +2,7 @@ import Herothumb from './herothumb'
 export default function Heroplaylist() {
     return (
         <div className="heroplaylist pt-10 pb-10 w-full relative">
-            <embed className="absolute w-auto top-0 -right-1/4 overflow-hidden"  type="image/svg+xml"  src="./pattean.svg"  />
+            <img className="hero-bg"  type="image/svg+xml"  src="./hero-bg.svg"  />
             <div className="flex shadow-lg pb-10 z-12 relative">
                 <div className="w-1/2 overflow-hidden">
                     <a className="block transform transition-all duration-1000 hover:scale-110">

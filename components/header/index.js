@@ -20,7 +20,7 @@ export const MainMenu = [
 ]
 export default function Header() {
     return (
-        <div className="header shadow">
+        <div className="header shadow bg-white z-10 relative">
             <div className="grid grid-flow-col">
                 <div className="row-span-2 justify-items-center">
                     <div className="self-center justify-self-center h-full">

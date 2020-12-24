@@ -13,11 +13,11 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-row">
             <FixedSidebar></FixedSidebar>
-            <div className="w-1/1">
+            <div className="w-1/2 md:w-full">
               <Heroplaylist></Heroplaylist>
               <div className="z-11 relative">
-                <LatestNews></LatestNews>
                 <HighlightVideo></HighlightVideo>
+                <LatestNews></LatestNews>
               </div>
             </div>
           </div>

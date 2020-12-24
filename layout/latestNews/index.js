@@ -1,7 +1,7 @@
 export default function LatestNews() {
     return (
         <div className="py-5">
-            <div className="flex w-full items-center my-5 justify-between border-b-1 border-grey-500">
+            <div className="flex w-full items-center my-5 justify-between border-b-2 border-gray-200">
                 <h2 className="font-headline text-2xl">ข่าวล่าสุด</h2>
                 <a className="font-halftime">ข่าวล่าสุด <span className=""> > </span></a>
             </div>
