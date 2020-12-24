@@ -1,7 +1,7 @@
 export default function FixedSidebar() {
     return (
         <div className="w-1/2">
-            <nav className="fixedSlider pt-20 z-10 relative mx-20 shadow-xl">
+            <nav className="fixedSlider pt-10 z-10 relative mx-20 shadow-xl">
                 <div className="fixturesAbridgedHeader bg-white rounded-t p-5">
                     <header>
                         <div className="week font-halftime text-md text-center">Matchweek 1</div>
@@ -79,8 +79,8 @@ export default function FixedSidebar() {
                     </div>
                 </div>
                 <div className="flex justify-end items-center px-5 py-2 bg-white rounded-b">
-                    <a class="btn widget-button font-halftime" href="/fixtures">
-                        View All<span class="icn arrow-right"></span>
+                    <a className="btn widget-button font-halftime" href="/fixtures">
+                        View All<span className="icn arrow-right"></span>
                     </a>
                 </div>
             </nav>
