@@ -24,9 +24,6 @@ a {
   text-decoration: none;
 }
 
-.heroplaylist {
- 
-}
 
 .heroplaylist:before  {
     content: "";
@@ -95,6 +92,13 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.hover-image:hover img {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+  transform: scale(1.1);
 }
 
 * {

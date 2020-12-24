@@ -8,8 +8,8 @@ export default function HighlightVideo() {
             <div className="grid grid-cols-2 gap-4">
                 <div className="w-full">
                     <div>
-                        <a className="highlightVideo-thumb block w-full relative">
-                            <div className="z-11 relative">
+                        <a className="highlightVideo-thumb hover-image transition-all duration-1000 block w-full relative">
+                            <div className="z-11 relative overflow-hidden">
                                 <img src="https://img.youtube.com/vi/0hNNlwiSoys/maxresdefault.jpg"></img>
                             </div>
                             <div className="z-11 relative p-5 min-h-8rem">
