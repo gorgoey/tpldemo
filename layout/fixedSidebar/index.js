@@ -1,7 +1,7 @@
 export default function FixedSidebar() {
     return (
         <div className="w-1/2">
-            <nav className="fixedSlider pt-10 z-10 relative md:mx-10 lg:mx-20 shadow-xl">
+            <nav className="fixedSlider pt-10 z-10 relative md:mx-5 lg:mx-20 shadow-xl">
                 <div className="fixturesAbridgedHeader bg-white rounded-t p-5">
                     <header>
                         <div className="week font-halftime text-md text-center">Matchweek 1</div>
