@@ -1,11 +1,11 @@
 export default function HighlightVideo() {
     return (
-        <div className="py-5">
+        <div className="py-5 px-4 md:px-0">
             <div className="flex w-full items-center my-5 justify-between border-b-2 border-gray-200">
                 <h2 className="font-headline text-2xl">ไฮไลท์ ล่าสุด</h2>
                 <a className="font-halftime">ไฮไลท์ ล่าสุด <span className=""> > </span></a>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
                 <div className="w-full">
                     <div>
                         <a className="highlightVideo-thumb hover-image transition-all duration-1000 block w-full relative">

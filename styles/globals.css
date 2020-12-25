@@ -29,7 +29,7 @@ a {
     content: "";
     display: block;
     width: 150vw;
-    height: 35.7em;
+    height: 50em;
     position: absolute;
     top: -4vw;
     left: -50vw;
@@ -99,6 +99,10 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 1000ms;
   transform: scale(1.1);
+}
+
+.footer-bg {
+  background: linear-gradient(180deg, rgba(48,0,0,1) 83%, rgba(219,0,0,1) 100%);
 }
 
 * {
