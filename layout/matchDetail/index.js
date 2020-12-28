@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function MatchDetails() { 
     return (
-    <div className="mx-auto relative">
-        <div className="bg-picture absolute">
+    <div className="mx-auto relative overflow-hidden">
+        <div className="bg-picture absolute -top-60">
             <Image className=" w-screen" quality={100} src="/leostadium.jpg" layout="fill" width={1920} height={1200}></Image>
         </div>
         <div className="container mx-auto md:pt-10">
