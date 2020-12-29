@@ -109,3 +109,6 @@ a {
   box-sizing: border-box;
 }
 
+.matchStats:before {
+  content: '';
+}

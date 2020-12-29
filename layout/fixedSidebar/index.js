@@ -20,7 +20,7 @@ export default function FixedSidebar() {
                                 <div>Thursday 24 December</div>
                             </div>
                             <div className="matchDay">
-                                <a className="block p-1 border-b-2 border-grey-400 hover:bg-red-700 hover:bg-opacity-500 hover:text-white">
+                                <a href="/match/matchdetail-bg-mtutd" className="block p-1 border-b-2 border-grey-400 hover:bg-red-700 hover:bg-opacity-500 hover:text-white">
                                     <div className="flex justify-between">
                                         <div className="flex text-md items-center px-2">
                                             <span className="teamName font-halftime text-sm">BGPU</span>

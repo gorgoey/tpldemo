@@ -9,7 +9,7 @@ export default function MatchDetails() {
         <div className="container mx-auto md:pt-10">
             <div className="match-bar bg-red-700 py-2 text-white flex relative z-10 w-full mb-96 font-halftime">
                 <div className="matchDate mx-3">วัน<span>เสาร์ 26 ธันวาคม 2020</span></div>
-                <div className="matchStadium mx-1">สนาม<span>ลีโอ สเตเดี้ยม , ปทุมธานี</span></div>
+                <div className="matchStadium flex items-center mx-1"><img className="mx-1 w-6" src="/match/icon-stadium.svg"></img>สนาม<span>ลีโอ สเตเดี้ยม , ปทุมธานี</span></div>
             </div>
         </div>
         <div className="matchTimeContainer z-10 bg-red-900 py-10 px-4 lg:px-0 h-full bg-opacity-90 relative text-white bg">
@@ -23,7 +23,7 @@ export default function MatchDetails() {
                             <img src="/match/bgpu.png" />
                         </div>
                         <div className="bg-red-700 text-center h-full flex items-center justify-center font-halftime  w-full ">
-                            <div className="name-full hidden md:block md:text-lg lg:text-4xl">BG PATHUM UNITED</div>
+                            <div className="name-full hidden md:block sm:text-md md:text-lg lg:text-3xl">BG PATHUM UNITED</div>
                             <div className="name-short md:hidden text-2xl md:text-3xl lg:text-4xl xl:text-6xl">BGPU</div>
                         </div>
                     </div>
@@ -45,29 +45,29 @@ export default function MatchDetails() {
                             <img src="/match/mtutd-away.png" />
                         </div>
                         <div className="bg-red-700 text-center h-full flex items-center justify-center font-halftime  w-full ">
-                            <div className="name-full hidden md:block  md:text-lg lg:text-4xl">SCG MUANGTHONG UNITED</div>
+                            <div className="name-full hidden md:block sm:text-md md:text-lg lg:text-3xl">SCG MUANGTHONG UNITED</div>
                             <div className="name-short md:hidden text-2xl">MTUTD</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="matchStats container mx-auto">
+            <div className="matchStats container font-halftime mx-auto">
                 <div className="matchStats halftime text-center mt-5 ">
-                    <span> Half Time :</span>  2 - 2 
+                    <span> Half Time :</span>  3 - 3 
                 </div>
                 <div className="matchStats halftime text-center mb-5">
                     <span> kick - off :</span>  19:00 
                 </div>
 
-                <div className="flex justify-between">
-                    <div className="matchStats w-1/8  home">
-                        <div>6',30' Diogo Luis Santo</div>
-                        <div>10',90' ธีรศิลป์ แดงดา</div>
+                <div className="flex justify-center ">
+                    <div className="matchStats relative w-1/8 text-sm sm:text-sm home pr-5">
+                        <div className="flex items-center"><span  className="mx-2">Diogo Luis Santo</span> 6', 30' <div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> </div>
+                        <div className="flex items-center"><span className="mx-2">ธีรศิลป์ แดงดา</span> 10', 90' <div className="mx-2"><img  className="w-4" src="/match/ball.svg"></img></div></div>
                     </div>
-                    <div className="matchStats w-1/8 away">
-                        <div>7' , 13 , 60 พิชา อุทา</div>
-                        <div>10' Dealay</div>
+                    <div className="matchStats relative w-1/8 text-sm sm:text away pl-4">
+                        <div className="flex items-center"><div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> <span className="mx-2">พิชา อุทา</span> 7' , 13 , 60 </div>
+                        <div className="flex items-center"><div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> <span className="mx-2">พิชา อุทา</span> 7' , 13 , 60 </div>
                     </div>
                 </div>
 
