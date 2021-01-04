@@ -4,6 +4,7 @@ import MatchDetails from '../../layout/matchDetail/index'
 import Footer from '../../components/footer/index'
 import RelatedNews from '../../layout/relatednews/index'
 import MatchDetailContentLated from '../../layout/matchDetail/content'
+import Lineup from '../../layout/matchDetail/lineup'
 
 export default function MatchDetail() {
   return (
@@ -11,7 +12,7 @@ export default function MatchDetail() {
       <Header></Header>
         <MatchDetails></MatchDetails>
         <div className="container mx-auto">
-          <MatchDetailContentLated></MatchDetailContentLated>
+          <Lineup></Lineup>
           <RelatedNews></RelatedNews>
           <div className="w-full h-3 my-4 border-b-4 border-red-700 "></div>
         </div>

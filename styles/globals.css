@@ -113,3 +113,23 @@ a {
 .matchStats:before {
   content: '';
 }
+
+.row-position:before ,
+.row-position:after  {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.row-position .pos {
+  width: 2.4rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  font-size: 1.1rem;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+}

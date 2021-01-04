@@ -26,7 +26,7 @@ export default function Header() {
     const openIcon = open ? 'hidden' : 'block'
 
     return (
-        <div className="header shadow bg-white z-10 relative">
+        <div className="header shadow bg-white z-20 relative">
             <div className="grid grid-flow-col grid-cols-1 md:grid-cols-4">
                 <div className=" md:row-span-2 justify-items-center">
                     <div className="self-center justify-self-center h-full">
@@ -36,7 +36,7 @@ export default function Header() {
                     </div>
                 </div>
                 <ClubNavigation></ClubNavigation>
-                <div className={`${mainMenuToggle} MainMenu absolute md:block bg-red-500 top-14 md:relative md:top-0 col-span-3 w-full bg-red-700`}>
+                <div className={`${mainMenuToggle} MainMenu absolute  md:block bg-red-500 top-14 md:relative md:top-0 col-span-3 w-full bg-red-700`}>
                     <ul className="flex flex-col md:flex-row">
                         {MainMenu.map(({i , name})=>(
                             <li className="p-4" key={i}>

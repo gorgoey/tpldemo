@@ -62,12 +62,11 @@ export default function MatchDetails() {
 
                 <div className="flex justify-center ">
                     <div className="matchStats relative w-1/8 text-sm sm:text-sm home pr-1 md:pr-4">
-                        <div className="flex items-center"><span  className="mx-2">Diogo Luis Santo</span> 6', 30' <div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> </div>
-                        <div className="flex items-center"><span className="mx-2">ธีรศิลป์ แดงดา</span> 10', 90' <div className="mx-2"><img  className="w-4" src="/match/ball.svg"></img></div></div>
+                        <div className="flex items-center"><span  className="mx-2">Diogo Luis Santo</span> 6', 30' <div className="lg:mx-2"><img className="w-4" src="/match/ball.svg"></img></div> </div>
+                        <div className="flex items-center"><span className="mx-2">ธีรศิลป์ แดงดา</span> 10', 90' <div className="lg:mx-2"><img  className="w-4" src="/match/ball.svg"></img></div></div>
                     </div>
                     <div className="matchStats relative w-1/8 text-sm sm:text away pl-1 md:pl-4">
-                        <div className="flex items-center"><div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> <span className="mx-2">พิชา อุทา</span> 7' , 13 , 60 </div>
-                        <div className="flex items-center"><div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> <span className="mx-2">พิชา อุทา</span> 7' , 13 , 60 </div>
+                        <div className="flex items-center"><div className="mx-2"><img className="w-4" src="/match/ball.svg"></img></div> <span className="lg:mx-2">พิชา อุทา</span> 7' , 13 , 60 </div>
                     </div>
                 </div>
 
