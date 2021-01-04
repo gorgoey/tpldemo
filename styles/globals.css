@@ -101,7 +101,8 @@ a {
   transform: scale(1.1);
 }
 
-.footer-bg {
+.footer-bg ,
+.headerTitle {
   background: linear-gradient(180deg, rgba(48,0,0,1) 83%, rgba(219,0,0,1) 100%);
 }
 

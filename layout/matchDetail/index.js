@@ -7,7 +7,7 @@ export default function MatchDetails() {
             <Image className=" w-screen" quality={100} src="/leostadium.jpg" layout="fill" width={1920} height={1200}></Image>
         </div>
         <div className="container mx-auto md:pt-10">
-            <div className="match-bar bg-red-700 bg-opacity-80 py-2 text-white flex relative z-10 w-full mb-96 font-halftime">
+            <div className="match-bar flex flex-wrap md:flex-nowrap bg-red-700 bg-opacity-80 py-2 text-white relative z-10 w-full mb-96 font-halftime">
                 <div className="matchDate mx-3">วัน<span>เสาร์ 26 ธันวาคม 2020</span></div>
                 <div className="matchStadium flex items-center mx-1"><img className="mx-1 w-6" src="/match/icon-stadium.svg"></img>สนาม<span>ลีโอ สเตเดี้ยม , ปทุมธานี</span></div>
             </div>
