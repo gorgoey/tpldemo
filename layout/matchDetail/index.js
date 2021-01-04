@@ -14,7 +14,7 @@ export default function MatchDetails() {
         </div>
         <div className="matchTimeContainer z-10 bg-red-900 py-10 px-4 lg:px-0 h-full bg-opacity-90 relative text-white bg">
             <div className="matchScores-wrapper container mx-auto relative z-10">
-                <div className="matchScores-logo flex flex-wrap justify-center">
+                <div className="matchScores-logo w-1/2 mx-auto flex flex-wrap justify-center">
                     <Image className=" bg-gray-100 mx-auto" quality={100} src="/toyota-thai-league-logo.svg" width={215} height={60}></Image>
                 </div>
                 <div className="matchScores-score flex">
@@ -24,11 +24,11 @@ export default function MatchDetails() {
                         </div>
                         <div className="bg-red-700 text-center h-full flex items-center justify-center font-halftime  w-full ">
                             <div className="name-full hidden md:block sm:text-md md:text-lg lg:text-3xl">BG PATHUM UNITED</div>
-                            <div className="name-short md:hidden text-2xl md:text-3xl lg:text-4xl xl:text-6xl">BGPU</div>
+                            <div className="name-short md:hidden text-lg md:text-3xl lg:text-4xl xl:text-6xl">BGPU</div>
                         </div>
                     </div>
     
-                    <div className="matchScores-bar w-1/5 bg-gray-200 font-fulltime grid grid-cols-3  text-black">
+                    <div className="matchScores-bar w-1/4 md:w-1/5 bg-gray-200 font-fulltime grid grid-cols-3  text-black">
                         <div className="matchScores-bar-home flex justify-center items-center text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
                             4
                         </div>
@@ -46,7 +46,7 @@ export default function MatchDetails() {
                         </div>
                         <div className="bg-red-700 text-center h-full flex items-center justify-center font-halftime  w-full ">
                             <div className="name-full hidden md:block sm:text-md md:text-lg lg:text-3xl">SCG MUANGTHONG UNITED</div>
-                            <div className="name-short md:hidden text-2xl">MTUTD</div>
+                            <div className="name-short md:hidden text-lg">MTUTD</div>
                         </div>
                     </div>
                 </div>
