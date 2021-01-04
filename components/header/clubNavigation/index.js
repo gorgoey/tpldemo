@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function ClubNavigation() {
     return (
-        <div className="col-span-3">
+        <div className="col-span-3 hidden md:block">
             <nav className="clubNavigation flex items-center px-5 w-full">
                 <div className="clubSitesHeading">
                     <h4 className="font-halftime font-light text-xs white">
