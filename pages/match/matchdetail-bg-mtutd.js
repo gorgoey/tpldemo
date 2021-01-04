@@ -9,6 +9,7 @@ export default function MatchDetail() {
       <Header></Header>
         <MatchDetails></MatchDetails>
         <div className="container mx-auto">
+          relative news
           <div className="w-full h-3 my-4 border-b-4 border-red-700 "></div>
         </div>
         <Footer></Footer>
