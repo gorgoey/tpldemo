@@ -133,3 +133,8 @@ a {
   font-size: 1.1rem;
   box-shadow: 0 0 5px rgba(0,0,0,.6);
 }
+
+.tab-lineup.react-tabs__tab--selected {
+  background-color: rgba(185, 28, 28);
+  color: #fff;
+}

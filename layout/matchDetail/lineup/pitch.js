@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Pitch() {
     return (
         <div className="w-full p-4">
@@ -9,7 +11,7 @@ export default function Pitch() {
                         <div className="w-1/6 mx-auto bg-blue-800 h-2"></div>
                    </div>
                    <div className="pitch-wrapper relative">
-                        <img src="/lineup-pitch.jpg"></img>
+                        <Image layout="responsive" width={575} height={845} src="/lineup-pitch.jpg"></Image>
                         <div className="team home flex justify-between flex-col absolute px-2 py-4 top-0 left-0 right-0 h-1/2">
                             <div className="flex justify-between  text-center row-position">
                                 <div className="pos bg-blue-800 text-white font-halftime">1</div>
