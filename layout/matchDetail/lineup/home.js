@@ -4,8 +4,9 @@ export default function HomeLineup() {
     return (
         <div className="w-full p-4">
             <div className="headHomeLineup mt-10">
-                <div className="flex flex-warp justify-center">
-                    <img className="w-32" src="/clubs/bgpu.png"></img>
+                <div className="text-center w-full ">
+                    <img className="w-24 lg:w-32 mx-auto" src="/clubs/bgpu.png"></img>
+                    <div className="font-halftime block lg:hidden">บีจี ปทุม ยูไนเต็ด</div>
                 </div>
             </div>
             <div className="homeLineup">

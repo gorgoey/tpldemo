@@ -10,8 +10,8 @@ export default function Pitch() {
                         <div className="font-halftime my-2"> บีจี ปทุม ยูไนเต็ด <span> 3-5-2</span></div>
                         <div className="w-1/6 mx-auto bg-blue-800 h-2"></div>
                    </div>
-                   <div className="pitch-wrapper relative">
-                        <Image layout="responsive" width={575} height={845} src="/lineup-pitch.jpg"></Image>
+                   <div className="pitch-wrapper flex flex-col justify-center relative">
+                        <Image className="" layout="responsive" width={1024} height={1300} src="/lineup-pitch.jpg"></Image>
                         <div className="team home flex justify-between flex-col absolute px-2 py-4 top-0 left-0 right-0 h-1/2">
                             <div className="flex justify-between  text-center row-position">
                                 <div className="pos bg-blue-800 text-white font-halftime">1</div>

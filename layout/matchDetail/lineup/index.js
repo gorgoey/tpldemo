@@ -13,13 +13,13 @@ const Lineup = ({ router }) => {
         <div>
             <Tabs className="block lg:hidden" selectedIndex={tabIndex} onSelect={index => setTabIndex(index)}>
                 <TabList className="text-center mt-5">
-                    <Tab className="tab-lineup border-2 border-red-600 inline-block px-4 py-2 font-halftime">
+                    <Tab className="tab-lineup border-2 border-red-500 inline-block px-6 py-2 font-halftime">
                         Home
                     </Tab>
-                    <Tab className="tab-lineup border-2 border-red-600 inline-block focus:bg-red-700 focus:text-white px-4 py-2 font-halftime">
+                    <Tab className="tab-lineup border-2 border-red-500 inline-block px-6 py-2 font-halftime">
                         Pitch
                     </Tab>
-                    <Tab className="tab-lineup border-2 border-red-600 inline-block px-4 py-2 font-halftime">
+                    <Tab className="tab-lineup border-2 border-red-500 inline-block px-6 py-2 font-halftime">
                         Away
                     </Tab>
                 </TabList>
