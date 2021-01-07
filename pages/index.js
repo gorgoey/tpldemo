@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/header/index'
 import Heroplaylist from '../layout/heroplaylist/index'
-import Herothumb from '../layout/heroplaylist/herothumb'
 import FixedSidebar from '../layout/fixedSidebar/index'
 import LatestNews from '../layout/latestNews/index'
 import HighlightVideo from '../layout/highlightVideo/index'
